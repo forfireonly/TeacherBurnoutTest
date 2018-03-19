@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F6A63"
+        android:orientation="vertical"
+        tools:context="com.example.anna.teacherburnouttest.MainActivity">
+
+
+        <TextView
+            android:id="@+id/dear_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Dear"
+            android:textColor="	#000000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/my_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question"
+            android:layout_marginLeft="16dp"
+            android:text="Reason"
+            android:textColor="	#000000"
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Follow these advice to combat the Teacher Burnout syndrom"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Foster Positivity"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Create Realistic to Do Lists"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Accept That There Are Things You Cannot Change"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Learn to Relax"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Watch a Funny Movie"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Try Something New"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Leave Your Teaching at School"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Get Plenty of Sleep"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Talk to Someone Positive"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Celebrate What It Means to Be a Teacher"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="For more information:"
+            android:textColor="	#000000"
+            android:textSize="20sp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="https://www.thoughtco.com/ways-to-deal-with-teacher-burnout-8289"
+            android:textColor="	#000000"
+            android:autoLink="all"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

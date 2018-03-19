@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F6A63"
+    android:orientation="vertical"
+    tools:context="com.example.anna.teacherburnouttest.MainActivity">
+
+    <TextView
+
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Please, enter your name"
+        android:textSize="20sp"
+        android:textColor="	#000000"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/yourname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Name"
+        android:inputType="textMultiLine" />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Please, take a moment to reflect on why you became a teacher."
+        android:textSize="20sp"
+        android:textColor="	#000000"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Why I wanted to be a teacher"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/teacher" />
+
+
+
+    <Button
+        android:id="@id/mybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:onClick="goToScreen3"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
